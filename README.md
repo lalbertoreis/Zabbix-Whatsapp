@@ -30,7 +30,9 @@ Acesse o menu Administração > Tipo de Mídias
     - Na primeira adicione: {ALERT.SENDTO}
     - Na segunda adicione: {ALERT.SUBJECT}
     - Na terceira adicione: {ALERT.MESSAGE}
-- Clique em Adicionar para adicionar o tipo de mídia cirado.
+- Clique em Adicionar para adicionar o tipo de mídia.
+
+![ConfiguracaoZabbix](https://github.com/lalbertoreis/Zabbix-Whatsapp/blob/main/img/Configuracao%20Midia.PNG)
 
 Agora que temos o tipo de mídia configurado, devemos atribuir um numero ou ID de um grupo para um usuário no seu Zabbix que receberá esses alertas.
 
@@ -42,6 +44,8 @@ Agora que temos o tipo de mídia configurado, devemos atribuir um numero ou ID d
 - Digite uma senha
 - Clique em atualizar
 
+![ConfiguracaoZabbixUsuario](https://github.com/lalbertoreis/Zabbix-Whatsapp/blob/main/img/Criacao%20Usuario.PNG)
+
 Agora devemos acessar a aba Mídia do usuário e atribuir um numero ou ID do grupo para receber os alertas.
 - Clique em Adicionar
 - No Tipo, selecione a Mídia MS Teams que criamos.
@@ -50,6 +54,8 @@ Agora devemos acessar a aba Mídia do usuário e atribuir um numero ou ID do gru
 - Clique em Adicionar para adicionar a mídia ao usuário
 - Clique em Adicionar para atualizar o usuário
 
+![ConfiguracaoZabbixUsuarioMidia](https://github.com/lalbertoreis/Zabbix-Whatsapp/blob/main/img/Configuracao%20Acao.PNG)
+
 Agora que temos o tipo de mídia configurado e o usuário criado para receber os alertas, podemos configurar a Ação como qualquer outra.
 
 - Acesse o menu Configuração > Ações
@@ -57,9 +63,15 @@ Agora que temos o tipo de mídia configurado e o usuário criado para receber os
 - No Nome, você pode colocar um de fácil entendimento. Ex: Alerta Whatsapp
 - Em Condições você pode escolher as sevidade das triggers que irá executar o alerta
 
+![ActionOperation](https://github.com/lalbertoreis/Zabbix-MSTeams/blob/main/img/Configura%C3%A7%C3%A3o%20Zabbix%20A%C3%A7%C3%A3o%20Opera%C3%A7%C3%A3o.png)
+
 Ainda em ações, mude de aba para Operações, onde irá configurar o avento de incidentes.
 
+![ActionOperation](https://github.com/lalbertoreis/Zabbix-Whatsapp/blob/main/img/Incidentes.PNG)
+
 Em Operação de recuperação, configure a mensagem que irá receber ao resolver o problema
+
+![RecoverOperation](https://github.com/lalbertoreis/Zabbix-Whatsapp/blob/main/img/Incidente%20Resolvido.PNG)
 
 Espero que este manual seja util para você e que traga valor para seus projetos.
 
